@@ -1,0 +1,27 @@
+
+//Actividad 2
+#include <stdio.h>
+#include <stdlib.h> 
+
+float main()
+{
+    float Ve,r11,r2,r3;//Las variables del programa
+    printf("\nLa funcion de este  programa es  conocer la resistencia necesaria  \nen un circuito electrico segun la fuente de voltaje y /nel led que se va a  implementar\n ");
+        
+        printf("\nEscribe el valor del voltaje de tu circuito \n"); 
+        scanf("%f",& Ve);//Se almacena  la variable
+         //La resistencia necesaria para el eld verde, azul y rojo todos brillantes
+        r1=(Vs-3)/0.02; 
+        r2=(Vs-3)/0.02;
+        r3=(Vs-2)/0.02;
+
+        //se realizan las operaciones necesarias para obtener el valor de la resistencia segun el led necesario 
+        
+        printf("\nla resistencia empleada para un circuito que tiene un led verde brillante es: %.2f \n",r1);
+        printf("\nla resistencia empleada para un circuito que cuenta con un led azul brillante es: %.2f \n",r2);
+        printf("\nla resistencia empleada para un circuito que cuenta con un led rojo brillante es: %.2f \n",r3);
+        
+        //Al final imprime el resultado de las operaciones que corresponden a los 3 leds
+
+    return 0;
+}
