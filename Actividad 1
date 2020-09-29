@@ -1,0 +1,27 @@
+// Actividad 1
+//Jose Antonio Reyes
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main()
+{
+    float r1, r2, r3; 
+float  Voltaje,RT,i1,i2,i3,IT;
+
+    printf("\nEscribe el voltaje en el cricuito;\n"); //Es para obtener nuestras variables
+    scanf("%f",&Ventrada);
+    printf("\nEscribe el valor de r1,r2,r3 separadas por, coma por favor:\n");
+    scanf("%f,%f,%f",&r1,&r2,&r3);
+    RT=(1/r1)+(1/r2)+(1/r3);// Operacion para obtener la rt
+    printf("\nla resistencia total es: %.3f\n",RT); // se imprime en pantalla el resultado
+    I1=Voltaje/r1; //operacion para la I1
+    printf("\nla corriente 1 es igual a: %.3f\n",I1);//  imprime en pantalla el resultado de I1
+    I2=Voltaje/r2;//operacion para la corriente I1
+    printf("\nla corriente 2 es igual a: %.3f\n",I2);// imprime en pantalla el resultado de I2
+    I3=Voltaje/r3;//operacion para la corriente 3
+    printf("\nla corriente 3 es igual a: %.3f\n" ,I3);// imprime en pantalla el resultado dE I3
+    IT=I3+I2+I1; //obtencion de la IT en circuito
+    RT=(1/r1)+(1/r2)+(1/r3);
+    printf("\nla corriente total en el  circuito electrico es: %.3f\n  ",IT); //se muestra e el valor de  IT
+    return 0;
+}
