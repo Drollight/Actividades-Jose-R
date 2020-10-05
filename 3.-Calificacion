@@ -1,0 +1,22 @@
+//Calificacion
+//Jose Antonio Reyes Tlacuilo
+#include <stdio.h>
+
+int main ()
+{
+
+float num1a,num2a,num3a,num4a,promedioa;
+   printf("introduce calidicacion 1");
+    scanf("%f",&num1a);
+    printf("introduce calificacion 2");
+    scanf("%f",&num2a);
+    printf("introduce calificacion 3");
+    scanf("%f",&num3a);
+    printf("introduce calificacion 4"),
+    scanf("%f",&num4a);
+    promedioa= (num1a+num2a+num3a+num4a)/4;
+    printf("El promedio1 es %f",promedioa);
+
+ return 0;
+
+}
